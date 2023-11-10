@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(221, 27, 228);
+    overflow-x: hidden;
+}
+textarea{
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+#count{
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -30px;
+    transform: translateY(-50%);
+    left: 50%;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+h5{
+    font-size: large;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
